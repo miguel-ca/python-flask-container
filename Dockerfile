@@ -9,4 +9,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
+RUN flask --app flaskr init-db
+
 CMD [ "waitress-serve", "--call" , "flaskr:create_app"]

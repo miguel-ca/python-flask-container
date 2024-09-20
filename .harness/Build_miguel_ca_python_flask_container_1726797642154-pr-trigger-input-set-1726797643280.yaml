@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_miguel_ca_python_flask_container_1726797642154-pr-trigger-input-set
+  identifier: Build_miguel_ca_python_flask_container_1726797642154prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_miguel_ca_python_flask_container_1726797642154
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
